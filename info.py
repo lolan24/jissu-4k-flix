@@ -25,8 +25,8 @@ MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/MM_4KFLIXTG8')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002340509267').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://flix1:flix1@cluster0.m9ime.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DATABASE_NAME = environ.get('DATABASE_NAME', "flix1")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://tgx1:tgx1@cluster0.oy4ro.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_NAME = environ.get('DATABASE_NAME', "tgx1")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Haridev')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
